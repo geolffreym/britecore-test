@@ -69,11 +69,11 @@ To deploy the code just:
 ```
 
 Hosted app:
-https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/
+ 1) https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/
 
 Hosted endpoints:
-https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/risk/
-https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/risk/<id>
+ 1) https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/risk/
+ 2) https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/risk/<id>
 ## Built With
 
 * [Django](https://docs.djangoproject.com/en/2.1/) - The back end framework used
