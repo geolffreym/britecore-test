@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app:
+    container_name: app
+    restart: unless-stopped
+    volumes:
+      - .:/data/britecore/
+    command: bash -c "gunicorn -b 0.0.0.0:8000 BriteCore.wsgi -w 2 --reload"
+    build: .
+    environment:
+      - ENV=development
+    ports:
+      - "8000:8000"
+
+

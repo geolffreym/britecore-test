@@ -1,0 +1,112 @@
+[
+  {
+    "model": "britecore.RiskTypes",
+    "pk": 1,
+    "fields": {
+      "label": "Automobiles",
+      "name": "automobiles"
+    }
+  },
+  {
+    "model": "britecore.RiskTypes",
+    "pk": 2,
+    "fields": {
+      "label": "Houses",
+      "name": "houses"
+    }
+  },
+  {
+    "model": "britecore.RiskTypes",
+    "pk": 3,
+    "fields": {
+      "label": "Prizes",
+      "name": "prizes"
+    }
+  },
+  {
+    "model": "britecore.CustomDataField",
+    "pk": 1,
+    "fields": {
+      "label": "Vehicle Plate",
+      "type": "text",
+      "description": "Please write the license plate number of your vehicle"
+    }
+  },
+  {
+    "model": "britecore.CustomDataField",
+    "pk": 2,
+    "fields": {
+      "label": "Owner",
+      "type": "text",
+      "description": "Please write the name of the owner of the vehicle"
+    }
+  },
+  {
+    "model": "britecore.CustomDataField",
+    "pk": 3,
+    "fields": {
+      "label": "Address",
+      "type": "text",
+      "description": "Please write the address of the house"
+    }
+  },
+  {
+    "model": "britecore.CustomDataField",
+    "pk": 4,
+    "fields": {
+      "label": "City",
+      "type": "text",
+      "description": "Please write the city in which the house is located"
+    }
+  },
+  {
+    "model": "britecore.CustomDataField",
+    "pk": 5,
+    "fields": {
+      "label": "Dollar Amount",
+      "type": "number",
+      "description": "Please write the amount covered"
+    }
+  },
+  {
+    "model": "britecore.RiskModel",
+    "pk": 1,
+    "fields": {
+      "field_id": 1,
+      "risk_type_id": 1
+    }
+  },
+  {
+    "model": "britecore.RiskModel",
+    "pk": 2,
+    "fields": {
+      "field_id": 2,
+      "risk_type_id": 1
+    }
+  },
+  {
+    "model": "britecore.RiskModel",
+    "pk": 3,
+    "fields": {
+      "field_id": 3,
+      "risk_type_id": 2
+    }
+  },
+  {
+    "model": "britecore.RiskModel",
+    "pk": 4,
+    "fields": {
+      "field_id": 4,
+      "risk_type_id": 2
+    }
+  },
+  {
+    "model": "britecore.RiskModel",
+    "pk": 5,
+    "fields": {
+      "field_id": 5,
+      "risk_type_id": 3
+    }
+  }
+]
+
