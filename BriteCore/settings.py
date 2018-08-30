@@ -34,7 +34,7 @@ SECRET_KEY = 'vd4tcgj!lliltg8))%!a4st9i+&9ltgva+kt%jx6ow21o*%!w+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG', default=True)
 
-ALLOWED_HOSTS = ['*', 'l5k7uoklhk.execute-api.us-west-2.amazonaws.com']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
