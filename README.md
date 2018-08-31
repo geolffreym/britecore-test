@@ -17,6 +17,14 @@ For the development of the front end you need:
 
 ### Initializing Local Settings
 
+Create env file in `/BriteCore/` dir:
+```
+DATABASE_URL=mysql://user:pass@host:3306/britecore_db
+DEBUG=True
+AWS_STORAGE_BUCKET_NAME=britecore-cdn1
+AWS_ACCESS_KEY_ID=amazon_key
+AWS_SECRET_ACCESS_KEY=amazon_secret
+```
 
 Then just run:
 
