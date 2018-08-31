@@ -73,7 +73,7 @@ Hosted app:
 
 Hosted endpoints:
  1) https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/risk/
- 2) https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/risk/{id}
+ 2) https://rffuzq4a5k.execute-api.us-west-2.amazonaws.com/dev/risk/{id}/
 ## Built With
 
 * [Django](https://docs.djangoproject.com/en/2.1/) - The back end framework used
