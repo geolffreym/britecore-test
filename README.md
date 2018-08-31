@@ -17,7 +17,7 @@ For the development of the front end you need:
 
 ### Initializing Local Settings
 
-Create env file in `/BriteCore/` dir:
+Create `.env` file in `/BriteCore/` dir:
 ```
 DATABASE_URL=mysql://user:pass@host:3306/britecore_db
 DEBUG=True
